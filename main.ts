@@ -4,6 +4,9 @@ while (true) {
         music.wawawawaa.loop()
         music.setVolume(20)
         light.setAll(light.rgb(255, 255, 255))
+    } else {
+        music.wawawawaa.loop()
+        light.clear()
     }
     
 }

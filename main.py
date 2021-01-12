@@ -4,5 +4,10 @@ while True:
         music.wawawawaa.loop() 
         music.set_volume(20)
         light.set_all(light.rgb(255, 255, 255))
+    else:
+        music.wawawawaa.loop()
+        light.clear()
+
+
 
 
