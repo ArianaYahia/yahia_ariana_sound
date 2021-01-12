@@ -1,8 +1,9 @@
 while (true) {
     console.log(input.soundLevel() + input.lightLevel())
-    if (input.soundLevel() > 10 + input.lightLevel() && 10 + input.lightLevel() > 10) {
-        music.wawawawaa.play()
+    if (input.soundLevel() + input.lightLevel()) {
+        music.wawawawaa.loop()
         light.setAll(light.rgb(255, 255, 255))
+        music.setVolume(20)
     }
     
 }
