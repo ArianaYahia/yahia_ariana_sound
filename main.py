@@ -7,4 +7,3 @@ while True:
 
 
 
-        music.magic_wand.loop()

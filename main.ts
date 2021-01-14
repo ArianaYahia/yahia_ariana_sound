@@ -3,7 +3,6 @@ while (true) {
         light.setAll(light.rgb(255, 255, 255))
     } else {
         light.clear()
-        music.magicWand.loop()
     }
     
 }
