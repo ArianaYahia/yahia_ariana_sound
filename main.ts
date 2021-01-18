@@ -1,11 +1,8 @@
 while (true) {
-    console.log(input.soundLevel() + input.lightLevel())
-    if (input.lightLevel() > 5 + input.soundLevel() && 5 + input.soundLevel() > 100) {
-        music.wawawawaa.loop()
-        light.setPixelColor(0, light.rgb(255, 255, 255))
+    if (input.soundLevel()) {
+        music.playMelody("E F G F F E C5 F E B B G A F", 120)
     } else {
         music.stopAllSounds()
-        light.clear()
     }
     
 }
