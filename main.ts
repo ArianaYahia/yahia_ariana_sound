@@ -1,6 +1,6 @@
 while (true) {
     if (input.lightLevel() > 5) {
-        music.magicWand.loop()
+        music.magicWand.playUntilDone()
     } else {
         music.stopAllSounds()
     }
