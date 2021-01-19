@@ -1,5 +1,6 @@
 while True:
     if input.sound_level():
-        music.play_melody("E F G F F E C5 F E B B G A F", 120)
+        music.set_volume(20)
+        music.play_melody("E        Db B  A  Ab E   F#    E  E E     E       E    Db    B   A       Ab    E     F#  E E", 120)
     else:
         music.stop_all_sounds()

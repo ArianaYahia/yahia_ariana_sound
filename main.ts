@@ -1,6 +1,7 @@
 while (true) {
     if (input.soundLevel()) {
-        music.playMelody("E F G F F E C5 F E B B G A F", 120)
+        music.setVolume(20)
+        music.playMelody("E        Db B  A  Ab E   F#    E  E E     E       E    Db    B   A       Ab    E     F#  E E", 120)
     } else {
         music.stopAllSounds()
     }
